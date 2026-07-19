@@ -1,6 +1,6 @@
 # 🏛️ Software Architecture in Essence: Three-Facet Mental Model
 
-###### Wednesday, 15 July, 2026
+###### WZM | Wednesday, 15 July, 2026
 
 <img src="./images/SoftwareArchitectureAnimation.gif" alt="SoftwareArchitectureAnimation" style="max-width: 500px; width: 100%; height: auto;">
 

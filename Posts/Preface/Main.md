@@ -1,6 +1,6 @@
 # 📜Preface: Why This Blog Exists
 
-###### Saturday, 11 July, 2026
+###### WZM | Saturday, 11 July, 2026
 
 Software architecture holds a special place in my heart. Like engineers and architects from other engineering fields, I find blueprints and design diagrams fascinating. However, software architecture is more than just abstract designs or premium code; it is a practical toolbox of proven solutions and patterns for software development task.
 
