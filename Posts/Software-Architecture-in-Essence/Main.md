@@ -43,7 +43,7 @@ These define the **high-level architectural boundaries** within a deployable uni
 
 #### Examples
 
-- N-Layers
+- N-Layer
   * Presentation Layer
   * Application Layer
   * Domain Layer
