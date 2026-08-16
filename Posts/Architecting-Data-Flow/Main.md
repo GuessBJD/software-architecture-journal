@@ -49,7 +49,9 @@ This pillar focuses on the mechanisms necessary to support the integration of da
 This pillar focuses on tactics to address the performance imbalance that occurs when a single database and data model serves both read and write purposes. It defines design patterns used to structure, model, and manage data optimized independently for reads and writes.
 
 > **Write Operations:** Require a strict, normalized structure to protect data integrity, prevent duplication, and enforce complex business rules.  
+>
 > **Read Operations:** Often require denormalized, pre-joined, flat structures tailored to specific screen layouts or API responses.  
+>
 > Attempting to handle both workloads within a single database and data model typically leads to heavy table joins, slow queries, and severe performance bottlenecks.
 
 - **Read/Write Separation:** An architectural design pattern to support read and write workloads to scale independently–e.g., CQRS.
