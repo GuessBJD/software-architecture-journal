@@ -8,19 +8,19 @@ Software architecture, in essence, is about **system structure**.
 
 A simple way to understand system structure is by breaking it down into **three core facets**:
 
-1. 🧩 Components
+1. 🧩 Units
 2. 🔗 Connections & Communication
 3. 🌊 Data Flow
 
-## 🧩 1. Components
+## 🧩 1. Units
 
-Components are the individual structural parts of a system.
+Units are the structural parts of a system over components.
 
-They exist at **two different levels**:
+They can be viewed at **two different levels**:
 
-### 📦 Deployable Units
+### 📦 Deployment Units
 
-These are components that can be **compiled, packaged, deployed, and run independently**.
+These are units that can be **compiled, packaged, deployed, and run independently**.
 
 #### Examples
 
@@ -32,14 +32,14 @@ These are components that can be **compiled, packaged, deployed, and run indepen
   * Billing Microservice
   * Shipping Microservice
   * Inventory Microservice
-- Infrastructure Component
+- Infrastructure
   * Cache
   * Databases
   * Message Brokers
 
 ### 🏗️ Logical Units
 
-These define the **high-level architectural boundaries** within a deployable unit. Their purpose is to organize code, enforce separation of concerns, and assign responsibilities.
+These are units that define the **high-level architectural boundaries** within a deployment unit. Their purpose is to organize code, enforce separation of concerns, and assign responsibilities.
 
 #### Examples
 
@@ -60,7 +60,7 @@ These define the **high-level architectural boundaries** within a deployable uni
 
 ## 🔗 2. Connections & Communication
 
-Connections define **how components interact** with one another.
+Connections define **how units interact** with one another.
 
 Common communication mechanisms include:
 
@@ -75,7 +75,7 @@ Common communication mechanisms include:
 
 Data flow describes:
 
-- How data moves from one component to another
+- How data moves from one unit to another
 - How data changes state throughout a business process
 - The lifecycle of information as it travels across the system
 
@@ -90,7 +90,7 @@ A well-designed data flow helps ensure:
 
 These three facets help software architects define:
 
-- Component boundaries
+- Component boundaries and encapsulation
 - Responsibilities
 - Coupling between components
 - Overall system organization, execution, and operation
@@ -129,8 +129,8 @@ Quality attributes determine how well a system performs beyond simply being func
 
 Software architecture is fundamentally about designing the **structure of a system** by carefully considering:
 
-- 🧩 **Components** — What the system is made of
-- 🔗 **Connections** — How those components communicate
+- 🧩 **Units** — How to structure system components into units
+- 🔗 **Connections** — How those units communicate
 - 🌊 **Data Flow** — How information moves through the system
 
 Every architectural decision is ultimately a **trade-off** between achieving business objectives and meeting the desired quality attributes.
