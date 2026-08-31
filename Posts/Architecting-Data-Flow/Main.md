@@ -31,8 +31,8 @@ This pillar focuses on how data is computed, transformed, and processed over tim
 
 This pillar focuses on the degree of service coupling when data is moved between components. It defines how the components interact to move data, whether synchronously or asynchronously.
 
-- **Synchronous communication:** A communication style where the connection between components during the interaction is synchronous and exhibits high temporal coupling–i.e., Request-Response such as RESTful and gRPC.
-- **Asynchronous communication:** A communication style where the interaction between components is asynchronous and exhibits low temporal coupling–i.e., Pub/Sub such as RabbitMQ and Kafka.
+- **Synchronous communication:** A communication style where the connection between components during the interaction is synchronous and exhibits high temporal coupling (i.e., Request-Response such as RESTful and gRPC).
+- **Asynchronous communication:** A communication style where the interaction between components is asynchronous and exhibits low temporal coupling (i.e., Pub/Sub such as RabbitMQ and Kafka).
 
 ## 🔄 Consistency & Distributed Workflow
 
@@ -40,9 +40,9 @@ This pillar focuses on the mechanisms necessary to support the integration of da
 
 > **Coordination → Sending → Receiving**
 
-- **Distributed Transaction and Coordination:** Patterns for coordinating the workflow of distributed, multi-step business operations, covering strategies to manage data consistency when transitioning across multiple independent services–e.g., Saga Pattern.
-- **Reliable Messaging (Sending):** Patterns for supporting reliable messaging, covering mechanisms to ensure events will not be lost following a committed data transaction–e.g., Transactional Outbox Pattern.
-- **State Tracking (Receiving):** Patterns for ensuring valid message consumption, covering mechanisms to trace event states and safely process data across consuming services–e.g., Idempotency.
+- **Distributed Transaction and Coordination:** Patterns for coordinating the workflow of distributed, multi-step business operations, covering strategies to manage data consistency when transitioning across multiple independent services (e.g., Saga Pattern).
+- **Reliable Messaging—Sending:** Patterns for supporting reliable messaging, covering mechanisms to ensure events will not be lost following a committed data transaction (e.g., Transactional Outbox Pattern).
+- **State Tracking—Receiving:** Patterns for ensuring valid message consumption, covering mechanisms to trace event states and safely process data across consuming services (e.g., Idempotency).
 
 ## 📊 Data Modelling & Read/Write Optimization
 
@@ -54,8 +54,8 @@ This pillar focuses on tactics to address the performance imbalance that occurs 
 >
 > Attempting to handle both workloads within a single database and data model typically leads to heavy table joins, slow queries, and severe performance bottlenecks.
 
-- **Read/Write Separation:** An architectural design pattern to support read and write workloads to scale independently–e.g., CQRS.
-- **Read/Write Data Model:** Data modelling patterns that structure tailored data models optimized for fast querying and writing–e.g., Event Sourcing, Projections.
+- **Read/Write Separation:** An architectural design pattern to support read and write workloads to scale independently (e.g., CQRS).
+- **Read/Write Data Model:** Data modelling patterns that structure tailored data models optimized for fast querying and writing (e.g., Event Sourcing, Projections).
 
 ## 💡 Key Takeaway
 

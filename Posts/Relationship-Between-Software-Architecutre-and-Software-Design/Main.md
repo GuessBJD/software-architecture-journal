@@ -10,7 +10,7 @@ For example, when I was introduced to the N-Layer architecture, I initially inte
 
 Over time, I realized that while architectural patterns do influence how code is organized, software architecture operates at a much higher level of abstraction. Using the same example, the N-Layer architecture defines the system's overall structure by separating it into presentation, business logic, and data access layers, establishing clear responsibilities and boundaries between them. Software design then focuses on the implementation details within those boundaries, dictating how classes, modules, and objects collaborate.
 
-For instance, instead of separated folders, they should be treated as individual components/projects that have access boundaries. Because the architecture establishes these distinct layers, software design has to determine how data objects should interact across those boundaries—implementing Data Transfer Objects (DTOs) and the Mapper pattern as the design solution to bridge these layers while maintaining loose coupling.
+Rather than being treated as merely separate folders, they should be treated as individual units with meaningful logical boundaries. Because the architecture establishes these distinct layers, software design plays an important role by providing techniques for determining how data objects should be encapsulated within each layer and how they should interact across layer boundaries. For example, Data Transfer Objects (DTOs) and the Mapper pattern can be used to encapsulate data models within their respective layers while bridging these layers and maintaining loose coupling.
 
 ## 🔬 The Intersection: A Top-Down Continuum
 

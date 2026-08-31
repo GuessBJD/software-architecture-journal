@@ -10,3 +10,4 @@
 |19/07/2026|[Relationship Between Software Architecture and Software Design](./Posts/Relationship-Between-Software-Architecutre-and-Software-Design/Main.md)|Architecture Draws the Sandbox, and Design Plays Inside it|Mental Model|
 |26/07/2026|[Deployment Architecture vs Application Architecture](./Posts/Deployment-Architecture-vs-Application-Architecture/Main.md)|Runtime Boundary and Logical Organization|Mental Model|
 |16/08/2026|[Architecting Data Flow](./Posts/Architecting-Data-Flow/Main.md)|Four Pillars Mental Model|Mental Model|
+|31/08/2026|[Software Architecture in Action](./Posts/Software-Architecture-in-Action/Main.md)|Building Components into Units|Mental Model|
